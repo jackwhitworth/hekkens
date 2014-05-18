@@ -19,7 +19,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-	<?php wp_head(); ?>
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
 </head>
 
@@ -27,35 +27,37 @@
 	
 	<main>
 		
-		<header>
+		<header class="row">
 			
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">	
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-			</a>
-		
-			<?php
-				$defaults = array(
-					'theme_location'  => '',
-					'menu'            => '',
-					'container'       => 'nav',
-					'container_class' => '',
-					'container_id'    => '',
-					'menu_class'      => 'menu',
-					'menu_id'         => '',
-					'echo'            => true,
-					'fallback_cb'     => 'wp_page_menu',
-					'before'          => '',
-					'after'           => '',
-					'link_before'     => '',
-					'link_after'      => '',
-					'items_wrap'      => '<ul>%3$s</ul>',
-					'depth'           => 0,
-					'walker'          => ''
-				);
+			<nav>
 
-				wp_nav_menu( $defaults );
-			?>
+				<ul>
+
+					<li class="menu-item">
+						<a href="/work">Work</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="/development">Development</a>
+					</li>
+
+					<li class="menu-item">
+						<a class="col-md-4 home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+						</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="/about">About</a>
+					</li>
+
+					<li class="menu-item">
+						<a href="/contact">Contact</a>
+					</li>
+					
+				</ul>
+
+			</nav>	
 		
 		</header><!-- #masthead -->
 
-		
