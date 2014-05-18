@@ -5698,6 +5698,18 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
+header {
+  border-bottom: 1px solid black; }
+  header nav ul {
+    list-style-type: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: black;
+    text-decoration: none; }
+
 /*
 sass --watch ~/sites/hekkens.com/wp-content/themes/hekkens/css/core.scss:wp-content/themes/hekkens/style.css
 */
