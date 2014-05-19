@@ -7,9 +7,20 @@ header {
 		ul {
 			
 			list-style-type: none;
-			
+			height: 70px;
+
 			li {
 
+				text-align: center;
+
+				&.nav-link {
+					padding-top: 30px;
+				}
+
+				&.nav-home {
+					padding-top: 17px;
+					font-size: 30px;
+				}
 
 			}
 		}

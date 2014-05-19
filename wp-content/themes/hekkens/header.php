@@ -33,28 +33,28 @@
 
 				<ul>
 
-					<li class="menu-item">
-						<a href="/work">Work</a>
+					<li class="nav-link col-xs-1 col-xs-offset-3 ">
+						<a href="/work" title="Work">Work</a>
 					</li>
 
-					<li class="menu-item">
-						<a href="/development">Development</a>
+					<li class="nav-link col-xs-1">
+						<a href="/development" title="Development">Development</a>
 					</li>
 
-					<li class="menu-item">
-						<a class="col-md-4 home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-							<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+					<li class="nav-home col-xs-2">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+							<?php bloginfo( 'name' ); ?>
 						</a>
 					</li>
 
-					<li class="menu-item">
-						<a href="/about">About</a>
+					<li class="nav-link col-xs-1">
+						<a href="/about" title="About">About</a>
 					</li>
 
-					<li class="menu-item">
-						<a href="/contact">Contact</a>
+					<li class="nav-link col-xs-1">
+						<a href="/contact" title="Contact">Contact</a>
 					</li>
-					
+
 				</ul>
 
 			</nav>	

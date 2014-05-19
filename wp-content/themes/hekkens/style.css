@@ -5701,7 +5701,15 @@ button.close {
 header {
   border-bottom: 1px solid black; }
   header nav ul {
-    list-style-type: none; }
+    list-style-type: none;
+    height: 70px; }
+    header nav ul li {
+      text-align: center; }
+      header nav ul li.nav-link {
+        padding-top: 30px; }
+      header nav ul li.nav-home {
+        padding-top: 17px;
+        font-size: 30px; }
 
 a {
   color: black;
@@ -5709,6 +5717,23 @@ a {
   a:hover {
     color: black;
     text-decoration: none; }
+
+body.home main article a {
+  padding: 0; }
+  body.home main article a figure {
+    position: relative; }
+    body.home main article a figure img {
+      width: 100%;
+      height: auto; }
+    body.home main article a figure figcaption {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center; }
+  body.home main article a:hover figure img {
+    opacity: 50%; }
 
 /*
 sass --watch ~/sites/hekkens.com/wp-content/themes/hekkens/css/core.scss:wp-content/themes/hekkens/style.css

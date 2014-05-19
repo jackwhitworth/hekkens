@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-<article>
+<article class="row">
 
 	<?php
 
@@ -24,21 +24,30 @@ get_header(); ?>
 
 		$args = array(
     		'post_type' => 'hekkens_work',
-    		'posts_per_page' => 1,
-
+    		'posts_per_page' => 5,
 		);
 
 		$loop = new WP_Query($args);
 
+		$class;
+		$count = 0;
+
 		while($loop->have_posts()): $loop->the_post();
 
+		$count++;
+
+		if ( $count === 1 ) {
+			$class = "col-sm-12";
+		} else {
+			$class = "col-sm-6";
+		}
 	?>
 
-		<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="span12 hero" >
+		<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="<?php echo $class; ?>" >
             <figure>
                 <?php the_post_thumbnail('medium'); ?>
                 <figcaption>
-                    <h1 class="overlay-header-feature"><?php the_title(); ?></h1>
+                    <h1 class="overlay-header-feature"><?php the_title(); echo $count; ?></h1>
                 </figcaption>
             </figure>
         </a>
@@ -53,7 +62,7 @@ get_header(); ?>
 
 		$args = array(
     		'post_type' => 'hekkens_development',
-    		'posts_per_page' => 1,
+    		'posts_per_page' => 2,
 
 		);
 
@@ -63,7 +72,7 @@ get_header(); ?>
 
 	?>
 
-		<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="span12 hero" >
+		<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="<?php echo $class; ?>" >
             <figure>
                 <?php the_post_thumbnail('medium'); ?>
                 <figcaption>
