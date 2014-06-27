@@ -41,33 +41,8 @@ if($server === NULL) {
 
 switch($server)
 {
-    case 'frame-denim.com':
-        define('DB_NAME', 'frame-denim-com');
-        define('DB_USER', 'frame-denim');
-        define('DB_PASSWORD', '959046e04a1cd92b1087b15ed037392d');
-        define('DB_HOST', '8c723d3223db4f984d9a5b5e58ecc7ff2fc74e9d.rackspaceclouddb.com');
-        break;
-    case 'frame-denim.com.development.wednesdayagency.com':
-        define('DB_NAME', 'frame-denim-staging');
-        define('DB_USER', 'frame-denim');
-        define('DB_PASSWORD', '97bec5cd93');
-        define('DB_HOST', 'cb51505563d20dceeaf4e03e161f91c79a894d68.rackspaceclouddb.com');
-        break;
-    case 'frame-denim.com.staging.wednesdayagency.com':
-        define('DB_NAME', 'frame-denim-staging');
-        define('DB_USER', 'frame-denim');
-        define('DB_PASSWORD', '97bec5cd93');
-        define('DB_HOST', 'cb51505563d20dceeaf4e03e161f91c79a894d68.rackspaceclouddb.com');
-        break;
-    case 'frame-denim.com.host':
-        define('DB_NAME', 'frame-denim.com');
-        define('DB_USER', 'root');
-        define('DB_PASSWORD', '123');
-        define('DB_HOST', '127.0.0.1:3306');
-        define('ENVIRONMENT_TYPE', 'development');
-        break;
-    case 'frame-denim.nh':
-        define('DB_NAME', 'frame-denim');
+    case 'hekkens.nh':
+        define('DB_NAME', 'hekkens');
         define('DB_USER', 'root');
         define('DB_PASSWORD', 'root');
         define('DB_HOST', '127.0.0.1');

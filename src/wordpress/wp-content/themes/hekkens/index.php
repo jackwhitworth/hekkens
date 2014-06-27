@@ -15,41 +15,37 @@
  */
 
 	get_header();
+	$work = new WP_Query('post_type=hekkens_work&posts_per_page=6&orderby=date&order=DESC');
 ?>
-		<!-- HOMEPAGE (index.php) -->
-		<section id="homepage">
-			<div class="container-fluid">
-				<div class="row">
-					<?php
-						$pages = get_pages(
-							array(
-								'post_type' => 'page',
-								'sort_column' => 'menu_order, post_title',
-								'exclude' => '109'
-							)
-						);
 
-						$colcount = 0;
+<!-- HOMEPAGE (index.php) -->
+<section id="homepage">
+	<div class="container-fluid">
+		<div class="row">
 
-						foreach ($pages as $page) {
-							if ($page->post_parent == 0) {
-								// var_dump($page);
-								// echo("<br>");
-								$colcount++;
-								echo "\n<article class=\"col-xs-12 col-md-6\">\n";
-								echo "<a href=\"", get_permalink($page->ID), "\">", get_the_post_thumbnail($page->ID, 'large', array('class' => '')), "<h2>", get_the_title($page->ID), "</h2>", "</a>\n";
-								echo "</article>\n";
-								if ($colcount == 2) {
-									echo "\n<div class=\"clearfix visible-md visible-lg\"></div>\n";
-									$colcount = 0;
-								}
-							}
-						}
-					?>
+		<?php
+			while ($work->have_posts()) : $work->the_post();
+		?>
+
+			<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="hover-slide" >
+				<img class="first" src="<?php the_field('featured_image_one'); ?>"/>
+				<img class="second" src="<?php the_field('featured_image_two'); ?>"/>
+				<div class="third">
+					<span class="title"><?php the_title(); ?></span>
+					<hr>
+					<span class="date"><?php echo get_the_date(); ?></span>
 				</div>
-			</div>
-		</section>
-		<!-- /HOMEPAGE -->
+			</a>
+		
+		<?php
+			break;
+			endwhile;
+		?>
+		
+		</div>
+	</div>
+</section>
+<!-- /HOMEPAGE -->
 <?php
-	get_footer();
+get_footer();
 ?>

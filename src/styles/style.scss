@@ -1,9 +1,25 @@
+// theme banner
 @import 'vendor/banner';
 
+// bootstrap
 @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
-
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
 @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_responsive-utilities';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_type';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms';
+@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_utilities';
 
+// font awesome
 @import '../../build/bower_components/font-awesome/scss/_variables';
 @import '../../build/bower_components/font-awesome/scss/_path';
 @import '../../build/bower_components/font-awesome/scss/_icons';
+
+// sites styles
+@import 'vendor/mixins';

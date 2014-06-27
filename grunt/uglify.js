@@ -7,11 +7,11 @@ module.exports = {
 		options: {
 			beautify: true,
 			sourceMap: true,
-			sourceMappingURL: '<%= package.config.path.source %>/js/functions.map',
+			sourceMappingURL: '<%= package.config.path.source %>/js/hekkens.map',
 		},
 		files: {
-			'<%= package.config.path.source %>/js/functions.js': [
-				'<%= package.config.path.source %>/js/source/**/*.js'
+			'<%= package.config.path.source %>/js/hekkens.js': [
+				'<%= package.config.path.source %>/js/**/*.js'
 			]
 		}
 	}

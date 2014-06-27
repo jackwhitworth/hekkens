@@ -24,7 +24,6 @@ module.exports = {
 	'styles': [
 		// 'scsslint', //awaiting scss-lint 0.23.2, see https://github.com/causes/scss-lint/commit/16dfc11e3
 		'compass', //does not work with grunt-newer
-		'csslint',
 		'rename:styles',
 		// 'uncss',
 		'newer:copy:styles' //copy SASS source files for source map usage

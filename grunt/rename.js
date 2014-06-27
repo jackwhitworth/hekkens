@@ -6,13 +6,13 @@ module.exports = {
 	scripts: {
 		files: [
 			{
-				src: ['<%= package.config.path.source %>/js/functions.js'],
-				dest: '<%= package.config.path.theme %>/js/functions.js',
+				src: ['<%= package.config.path.source %>/js/hekkens.js'],
+				dest: '<%= package.config.path.theme %>/js/hekkens.js',
 				filter: 'isFile'
 			},
 			{
-				src: ['<%= package.config.path.source %>/js/functions.map'],
-				dest: '<%= package.config.path.theme %>/js/functions.map',
+				src: ['<%= package.config.path.source %>/js/hekkens.map'],
+				dest: '<%= package.config.path.theme %>/js/hekkens.map',
 				filter: 'isFile'
 			}
 		]
