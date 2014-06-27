@@ -1,0 +1,41 @@
+{
+  "name": "hekkens.co.uk",
+  "description": "Wordpress site for hekkens.co.uk",
+  "version": "0.1.0",
+  "homepage": "http://hekkens.co.uk",
+  "author": {
+    "name": "Nicolay Hekkens",
+    "email": "nhekkens@gmail.com",
+    "url": "http://hekkens.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhekkens/hekkens"
+  },
+  "bugs": {
+    "url": "https://github.com/nhekkens/hekkens/issues"
+  },
+  "dependencies": {
+    "fancybox": "2.1.x",
+    "font-awesome": "4.1.x",
+    "html5shiv": "3.7.x",
+    "imagesloaded": "3.1.x",
+    "jquery": "2.1.x",
+    "jquery.breakpoints": "*",
+    "jquery.cookie": "1.4.x",
+    "modernizr": "2.7.x",
+    "respond": "1.4.x",
+    "videojs": "4.4.x"
+  },
+  "devDependencies": {
+    "bootstrap-sass-official": "3.1.x"
+  },
+  "overrides": {
+    "fancybox": {
+      "main": "source/jquery.fancybox.pack.js"
+    },
+    "jquery.breakpoints": {
+      "main": "breakpoints.js"
+    }
+  }
+}

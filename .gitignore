@@ -1,3 +1,23 @@
-/.htaccess
+.DS_Store
+.sass-cache
+node_modules
+npm-debug.log
+validation-report.json
+validation-status.json
+/bower_components/
+/build/
+/dav/
+/dist/
+/src/images/sample/
+/src/video/sample/
+/tmp/
+/vendor/
+/.sublime-grunt.cache
+/scss-lint-report.xml
 
-/.sass-cache/
+/ralphrucci.sublime-workspace
+/ralphrucci.sublime-project
+
+/kentcurwen.sublime-workspace
+
+/kentcurwen.sublime-project
