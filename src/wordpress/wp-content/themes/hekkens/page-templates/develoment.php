@@ -1,21 +1,14 @@
 <?php
 /*
-Template Name: Contact
+Template Name: Development
 */
-
-
 	get_header();
 ?>
- 	
 
-	<section id="<?php echo basename(get_permalink()); ?>">
-
+	<section id="collection">
 		<div class="container-fluid">
-
-			
-
+		
 		</div>
-
 	</section>
 
 <?php

@@ -42,3 +42,30 @@
     }
 }
 
+@mixin animated-hover-overlay {
+    
+    	overflow: hidden;
+    	position: relative;
+
+		.first {
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			
+		}
+
+		.second {
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		.third {
+			
+		
+		}
+    
+}
+

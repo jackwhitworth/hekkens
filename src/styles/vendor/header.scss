@@ -1,0 +1,165 @@
+// HEADER CSS Mobile
+@media (max-width: $screen-xs-max) {
+	header {
+
+		height: 70px;
+	}
+}
+
+// HEADER CSS Tablet 
+@media (min-width: $screen-sm-min) {
+	header {
+
+		height: 90px;
+	}
+}
+
+// HEADER CSS Desktop 
+@media (min-width: $screen-md-min) {
+	
+	header {
+
+		height: 110px;
+	}
+}
+
+body {
+
+	header {
+
+		position: fixed;
+		padding-top: 20px;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: white;
+
+		.banner {
+
+			text-align: center;
+
+			.menu-hekkens-container {
+
+				position: absolute;
+				right: 2%;
+				top: 39px;
+
+				.menu-hekkens {
+
+					cursor: pointer;
+					margin: 0 auto;
+					padding-left: 1.25em;
+					position: relative;
+					width: 40px;
+					height: 40px;
+
+					.menu-hekkens-global {
+						
+						backface-visibility: hidden;
+						position: absolute;
+						left: 0;
+						border-top: 7px solid black;
+						width: 100%;
+						-webkit-transition: 0.55s;
+						-moz-transition: 0.55s;
+						-o-transition: 0.55s;
+						transition: 0.55s;
+					}
+
+					.menu-hekkens-top {
+
+						top: 0;
+					}
+
+					.menu-hekkens-middle {
+
+						top: 14px;
+					}
+
+					.menu-hekkens-bottom {
+
+						top: 28px;
+					}
+
+					.menu-hekkens-top-click {
+
+						backface-visibility: hidden;
+						top: 13px;
+						-webkit-transform: rotate(45deg);
+						-moz-transform: rotate(45deg);
+						-o-transform: rotate(45deg);
+						transform: rotate(45deg);
+						-webkit-transition: 0.55s 0.5s;
+						-moz-transition: 0.55s 0.5s;
+						-o-transition: 0.55s 0.5s;
+						transition: 0.55s 0.5s;
+					}
+
+					.menu-hekkens-middle-click {
+
+						opacity: 0;
+					}
+
+					.menu-hekkens-bottom-click {
+
+						backface-visibility: hidden;
+						top: 13px;
+						-webkit-transform: rotate(-405deg);
+						-moz-transform: rotate(-405deg);
+						-o-transform: rotate(-405deg);
+						transform: rotate(-405deg);
+						-webkit-transition: 0.55s 0.5s;
+						-moz-transition: 0.55s 0.5s;
+						-o-transition: 0.55s 0.5s;
+						transition: 0.55s 0.5s;
+					}
+				}
+
+				p {
+					color: black;
+					padding-top: 2px;
+				}
+			}
+
+			.site-title {
+
+				font-size: 60px;
+				// margin-top: 10px;
+				display: block;				
+			}
+		}
+	}
+
+
+	&.invert {
+
+			header {
+
+			background-color: black;
+
+			.banner {
+
+				.menu-hekkens-container {
+
+					.menu-hekkens {
+
+						.menu-hekkens-global {
+
+							border-top: 7px solid white;
+						}
+					}
+
+					p {
+
+						color: white;
+					}
+				}
+
+				.site-title {
+
+					color: white;		
+				}
+			}
+		}
+	}
+}

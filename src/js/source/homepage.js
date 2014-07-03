@@ -1,1 +1,6 @@
-console.log('dwad');
+$(document).ready(function() {
+	'use strict';
+
+	
+
+});

@@ -1,0 +1,78 @@
+body {
+
+	#navigation {
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: white;
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		display: table;
+	    vertical-align: middle;
+	    text-align: center;
+
+	    .menu {
+
+	    	display: table-cell;
+	    	vertical-align: middle;
+
+			ul {
+
+				list-style: none;
+				// vertical-align: middle;
+				padding: 0;
+				margin: 0 auto;
+				width: 300px;
+				background-color: white;
+				
+				li {
+
+					padding-top: 20px;
+					padding-bottom: 20px;
+					font-size: 25px;
+
+					a {
+
+						color: black;
+						&:hover {
+
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.invert {
+
+		#navigation {
+
+			background-color: black;
+
+		    .menu {
+
+				ul {
+
+					background-color: black;
+					
+					li {
+
+						a {
+
+							color: white;
+							&:hover {
+
+								color: white;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

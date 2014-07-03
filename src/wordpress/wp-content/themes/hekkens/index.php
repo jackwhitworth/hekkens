@@ -15,7 +15,7 @@
  */
 
 	get_header();
-	$work = new WP_Query('post_type=hekkens_work&posts_per_page=6&orderby=date&order=DESC');
+	$work = new WP_Query('post_type=hekkens_work&posts_per_page=4&orderby=date&order=DESC');
 ?>
 
 <!-- HOMEPAGE (index.php) -->
@@ -25,20 +25,18 @@
 
 		<?php
 			while ($work->have_posts()) : $work->the_post();
+
 		?>
 
-			<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="hover-slide" >
-				<img class="first" src="<?php the_field('featured_image_one'); ?>"/>
-				<img class="second" src="<?php the_field('featured_image_two'); ?>"/>
-				<div class="third">
-					<span class="title"><?php the_title(); ?></span>
-					<hr>
-					<span class="date"><?php echo get_the_date(); ?></span>
+			<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="featured" >
+				<?php the_post_thumbnail( 'full' ); ?>
+				<div class="info">
+					<p class="title"><?php the_field('featured_text_one'); ?></p>
+					<p class="excerpt"><?php the_field('featured_text_two'); ?></p>
 				</div>
-			</a>
+			</a> 
 		
 		<?php
-			break;
 			endwhile;
 		?>
 		

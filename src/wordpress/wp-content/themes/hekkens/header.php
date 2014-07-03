@@ -14,8 +14,9 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width">
-		<title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
-		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/1bf80fed-0ec6-4f8f-a35f-2d692908a4cd.css"/>
+		<title><?php bloginfo('name'); ?> | Development</title>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/edfdf469-f1a4-476f-9501-a03e66c149c6.css"/>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<?php
 			// load jQuery
@@ -28,24 +29,25 @@
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
 	</head>
 	<body>
+		<nav id="navigation" class="closed" style="display: none;">	
+			<?php
+				wp_nav_menu();
+			?>
+		</nav>
 		<header>
-			<div class="header">
-				<div class="container-fluid">
-					<nav class="row clearfix">	
-						<?php
-							wp_nav_menu(
-								// array(
-								// 	'depth'			=> 0,
-								// 	'menu_class'	=> 'menu',
-								// 	'echo'			=> true,
-								// 	'link_before'	=> '',
-								// 	'link_after'	=> '',
-								// 	'walker'		=> new RalphRucci_Menu_Walker()
-								// )
-							);
-						?>
-					</nav>
+			<div class="banner">
+				<div class="menu-hekkens-container">
+					<div class="menu-hekkens">
+						<span class="menu-hekkens-global menu-hekkens-top"></span>
+						<span class="menu-hekkens-global menu-hekkens-middle"></span>
+						<span class="menu-hekkens-global menu-hekkens-bottom"></span>
+					</div>
+					<p class="menu-hekkens-text">MENU</p>
 				</div>
+				
+			    <a class="site-title" href="<?php echo home_url(); ?>" title="home">
+			    	HEKKENS
+			    </a>
+				
 			</div>
 		</header>
-		

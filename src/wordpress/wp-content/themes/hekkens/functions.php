@@ -1,5 +1,7 @@
 <?php
 
+	
+
 	// Register custom post types.
 	function register_post_format() {
 	    add_theme_support( 'post-formats', array( 'quote', 'gallery' ) );
@@ -71,8 +73,11 @@
 		wp_enqueue_script('hekkens-script', get_theme_root_uri() .'/hekkens/js/hekkens.js', array(), '1.0.0', true);
 	}
 
+	add_theme_support('post-thumbnails');
+	
 	// HOOKS
-	add_action( 'after_setup_theme', 'register_post_format' ); 
+	add_action( 'after_setup_theme', 'register_post_format' );
+
 
 	// JAVASCRIPTS
 	add_action('wp_enqueue_scripts', 'hekkens_scripts');
