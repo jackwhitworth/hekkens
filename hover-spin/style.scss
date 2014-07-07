@@ -1,0 +1,35 @@
+html {
+
+	body {
+
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			position: absolute;
+			top: 45%;
+			left: 48%;
+
+			transform: rotate(360deg);
+			-ms-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			background-color: red;
+			-webkit-transition: 1s 0s;
+			-moz-transition: 1s 0s;
+			-o-transition: 1s 0s;
+			transition: 1s 0s;
+
+			&:hover {
+
+				transform: rotate(-360deg);
+				-ms-transform: rotate(-360deg);
+				-webkit-transform: rotate(-360deg);
+				background-color: red;
+				-webkit-transition: 1s 0s;
+				-moz-transition: 1s 0s;
+				-o-transition: 1s 0s;
+				transition: 1s 0s;
+			}
+		}
+	}
+}
