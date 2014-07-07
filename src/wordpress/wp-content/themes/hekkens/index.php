@@ -9,9 +9,9 @@
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Wednesday
- * @subpackage Ralph_Rucci
- * @since Ralph Rucci 1.0
+ * @package Hekkens
+ * @subpackage Hekkens
+ * @since Hekkens 1.0
  */
 
 	get_header();

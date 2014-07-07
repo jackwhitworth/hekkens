@@ -12,6 +12,7 @@
 		<footer class="container-fluid">
 			<div class="row">
 				<span class="impressum">&copy; Hekkens 2014</span>
+				<a class="contact" title="Contact" href="<?php echo home_url(); ?>/contact/">Contact</a>
 			</div>
 		</footer>
 		<?php wp_footer(); ?>

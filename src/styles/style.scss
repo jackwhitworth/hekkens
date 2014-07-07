@@ -2,19 +2,32 @@
 @import 'vendor/banner';
 
 // bootstrap
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_responsive-utilities';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_type';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms';
-@import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_utilities';
+@import 'vendor/bootstrap/_variables';
+@import 'vendor/bootstrap/_variables';
+@import 'vendor/bootstrap/_mixins';
+@import 'vendor/bootstrap/_variables';
+@import 'vendor/bootstrap/_mixins';
+@import 'vendor/bootstrap/_normalize';
+@import 'vendor/bootstrap/_scaffolding';
+@import 'vendor/bootstrap/_grid';
+@import 'vendor/bootstrap/_responsive-utilities';
+@import 'vendor/bootstrap/_type';
+@import 'vendor/bootstrap/_buttons';
+@import 'vendor/bootstrap/_forms';
+@import 'vendor/bootstrap/_utilities';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_responsive-utilities';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_type';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms';
+// @import '../../build/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_utilities';
 
 // font awesome
 @import '../../build/bower_components/font-awesome/scss/_variables';
@@ -31,3 +44,7 @@
 @import 'vendor/header';
 
 @import 'vendor/navigation';
+
+@import 'vendor/footer';
+
+@import 'vendor/work';

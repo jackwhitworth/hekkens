@@ -44,10 +44,23 @@ body {
 	section {
 
 		margin-top: 110px;
+		margin-bottom: 30px;
 	}
 
 	&.invert {
 
 		background-color: black;
 	}
+}
+
+html.flip {
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: 0.55s 0.5s;
+	-moz-transition: 0.55s 0.5s;
+	-o-transition: 0.55s 0.5s;
+	transition: 0.55s 0.5s;
 }

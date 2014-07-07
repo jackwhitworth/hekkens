@@ -5,7 +5,7 @@ Template Name: Development
 	get_header();
 ?>
 
-	<section id="collection">
+	<section id="development">
 		<div class="container-fluid">
 		
 		</div>

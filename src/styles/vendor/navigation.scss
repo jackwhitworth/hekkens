@@ -14,6 +14,7 @@ body {
 		display: table;
 	    vertical-align: middle;
 	    text-align: center;
+	    z-index: 1000;
 
 	    .menu {
 
@@ -38,6 +39,7 @@ body {
 					a {
 
 						color: black;
+
 						&:hover {
 
 							color: black;

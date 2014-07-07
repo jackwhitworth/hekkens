@@ -6,7 +6,7 @@ Template Name: Work
 ?>
 	<section id="work">
 		<div class="container-fluid">
-			
+			test
 		</div>
 	</section>
 	<!-- /COLLECTION TEMPLATE -->

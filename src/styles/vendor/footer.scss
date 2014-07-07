@@ -1,0 +1,21 @@
+footer {
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 14px;
+	z-index: 1001;
+	background-color: white;
+
+	.impressum {
+
+		@include make-md-column(2);
+	}
+
+	.contact {
+
+		@include make-md-column(10);
+		text-align: right;
+	}
+}

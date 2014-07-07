@@ -19,7 +19,7 @@
 				),
 			'public' => true,
 			'has_archive' => true,
-	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail' ),
+	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail', 'post-formats' ),
 	                'rewrite' => array('slug' => 'work')
 			)
 		);
@@ -33,7 +33,7 @@
 				),
 			'public' => true,
 			'has_archive' => true,
-	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail' ),
+	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail', 'post-formats' ),
 	                'rewrite' => array('slug' => 'about')
 			)
 		);
@@ -47,7 +47,7 @@
 				),
 			'public' => true,
 			'has_archive' => true,
-	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail' ),
+	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail', 'post-formats' ),
 	                'rewrite' => array('slug' => 'contact')
 			)
 		);
@@ -61,7 +61,7 @@
 				),
 			'public' => true,
 			'has_archive' => true,
-	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail' ),
+	                'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail', 'post-formats'),
 	                'rewrite' => array('slug' => 'development')
 			)
 		);
@@ -74,7 +74,7 @@
 	}
 
 	add_theme_support('post-thumbnails');
-	
+
 	// HOOKS
 	add_action( 'after_setup_theme', 'register_post_format' );
 

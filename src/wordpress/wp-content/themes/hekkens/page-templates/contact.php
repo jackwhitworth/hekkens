@@ -8,7 +8,7 @@ Template Name: Contact
 ?>
  	
 
-	<section id="<?php echo basename(get_permalink()); ?>">
+	<section id="contact">
 
 		<div class="container-fluid">
 

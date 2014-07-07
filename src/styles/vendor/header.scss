@@ -33,6 +33,7 @@ body {
 		left: 0;
 		right: 0;
 		background-color: white;
+		z-index: 1001;
 
 		.banner {
 
@@ -51,14 +52,14 @@ body {
 					padding-left: 1.25em;
 					position: relative;
 					width: 40px;
-					height: 40px;
+					height: 32px;
 
 					.menu-hekkens-global {
 						
 						backface-visibility: hidden;
 						position: absolute;
 						left: 0;
-						border-top: 7px solid black;
+						border-top: 4px solid black;
 						width: 100%;
 						-webkit-transition: 0.55s;
 						-moz-transition: 0.55s;
@@ -117,7 +118,6 @@ body {
 
 				p {
 					color: black;
-					padding-top: 2px;
 				}
 			}
 
