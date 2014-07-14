@@ -25,7 +25,9 @@
     "jquery.cookie": "1.4.x",
     "modernizr": "2.7.x",
     "respond": "1.4.x",
-    "videojs": "4.4.x"
+    "videojs": "4.4.x",
+    "isotope": "~2.0.0",
+    "bootstrap-sass-official": "~3.1.0"
   },
   "devDependencies": {
     "bootstrap-sass-official": "3.1.x"

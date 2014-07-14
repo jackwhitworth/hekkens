@@ -48,7 +48,30 @@ switch($server)
         define('DB_HOST', '127.0.0.1');
         define('ENVIRONMENT_TYPE', 'development');
         break;
+    case 'hekkens.co.uk':
+        define('DB_NAME', 'bitnami_wordpress');
+        define('DB_USER', 'bn_wordpress');
+        define('DB_PASSWORD', '6a9cc6ece7');
+        define('DB_HOST', 'localhost:3306');
+        break;
 }
+
+
+
+
+define('DB_NAME', 'bitnami_wordpress');
+
+/** MySQL database username */
+define('DB_USER', 'bn_wordpress');
+
+/** MySQL database password */
+define('DB_PASSWORD', '6a9cc6ece7');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost:3306');
+
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
 
 /**#@+
  * Authentication Unique Keys and Salts.

@@ -30,6 +30,8 @@
     "history": true,
     "alert": true,
     "lang": true,
-    "location": true
+    "location": true,
+    "setTimeout": true,
+    "clearTimeout": true
   }
 }

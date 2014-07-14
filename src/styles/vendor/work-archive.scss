@@ -1,4 +1,29 @@
-#work {
+#work-archive {
+
+	.filter {
+
+		.dropdown-menu {
+
+			button {
+
+				color: black;
+
+				&:hover {
+
+					text-decoration: none;
+				}
+
+				&:focus { 
+
+					outline: none; 
+				}
+			}
+		}
+
+		#quicksearch {
+			
+		}
+	}
 
 	.project {
 

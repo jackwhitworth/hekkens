@@ -73,7 +73,8 @@
 		wp_enqueue_script('hekkens-script', get_theme_root_uri() .'/hekkens/js/hekkens.js', array(), '1.0.0', true);
 	}
 
-	add_theme_support('post-thumbnails');
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'menus' );
 
 	// HOOKS
 	add_action( 'after_setup_theme', 'register_post_format' );
