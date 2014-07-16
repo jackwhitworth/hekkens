@@ -25,7 +25,7 @@
 			wp_enqueue_script('jquery');
 			wp_head();
 		?>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+		
 	</head>
 	<body>
 		<nav id="navigation" class="closed" style="display: none;">	
@@ -34,7 +34,12 @@
 			?>
 		</nav>
 		<header>
-			<div class="banner">
+			<div class="banner row">
+
+				<a class="site-title" href="<?php echo home_url(); ?>" title="home">
+			    	HEKKENS
+			    </a>
+
 				<div class="menu-hekkens-container">
 					<div class="menu-hekkens">
 						<span class="menu-hekkens-global menu-hekkens-top"></span>
@@ -44,9 +49,21 @@
 					<p class="menu-hekkens-text">MENU</p>
 				</div>
 				
-			    <a class="site-title" href="<?php echo home_url(); ?>" title="home">
-			    	HEKKENS
-			    </a>
+				<!-- <div class="menu-hekkens-container">
+
+					<div class="menu-hekkens">
+
+						<span class="menu-hekkens-global menu-hekkens-top"></span>
+						<span class="menu-hekkens-global menu-hekkens-middle"></span>
+						<span class="menu-hekkens-global menu-hekkens-bottom"></span>
+					</div>
+					<span>EKKENS</span>
+
+					<p class="menu-hekkens-text">MENU</p>
+
+				</div> -->
+
+			   
 				
 			</div>
 		</header>

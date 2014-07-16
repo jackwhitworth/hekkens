@@ -2,7 +2,8 @@
 @media (max-width: $screen-xs-max) {
 	header {
 
-		height: 70px;
+		height: 50px;
+		line-height: 50px;
 	}
 }
 
@@ -10,7 +11,8 @@
 @media (min-width: $screen-sm-min) {
 	header {
 
-		height: 90px;
+		height: 70px;
+		line-height: 70px;
 	}
 }
 
@@ -19,7 +21,8 @@
 	
 	header {
 
-		height: 110px;
+		height: 90px;
+		line-height: 90px;
 	}
 }
 
@@ -28,38 +31,57 @@ body {
 	header {
 
 		position: fixed;
-		padding-top: 20px;
 		top: 0;
 		left: 0;
 		right: 0;
-		background-color: white;
+		background-color: $h-dark-grey;
 		z-index: 1001;
 
 		.banner {
 
-			text-align: center;
+			max-width: 1200px;
+			margin: 0 auto;
+			position: relative;
 
 			.menu-hekkens-container {
 
 				position: absolute;
-				right: 2%;
-				top: 39px;
+										
+				right: 15px;
+				width: 40px;
+				@media (max-width: $screen-xs-max) {
+					top: 12px;
+					right: 0;
+				}
+				@media (min-width: $screen-sm-min) {
+					top: 12px;
+				}
+				@media (min-width: $screen-md-min) {
+					top: 20px;	
+				}	
 
 				.menu-hekkens {
 
 					cursor: pointer;
-					margin: 0 auto;
 					padding-left: 1.25em;
 					position: relative;
 					width: 40px;
 					height: 32px;
+					@media (max-width: $screen-xs-max) {
+						width: 25px;
+						height: 22px;
+					}	
 
 					.menu-hekkens-global {
 						
 						backface-visibility: hidden;
 						position: absolute;
 						left: 0;
-						border-top: 4px solid black;
+						border-top: 4px solid $h-orange;
+						@media (max-width: $screen-xs-max) {
+							border-top: 2px solid $h-orange;
+						}	
+
 						width: 100%;
 						-webkit-transition: 0.55s;
 						-moz-transition: 0.55s;
@@ -74,18 +96,27 @@ body {
 
 					.menu-hekkens-middle {
 
-						top: 14px;
+						top: 13px;
+						@media (max-width: $screen-xs-max) {
+							top: 8px;
+						}	
 					}
 
 					.menu-hekkens-bottom {
 
-						top: 28px;
+						top: 26px;
+						@media (max-width: $screen-xs-max) {
+							top: 16px;
+						}	
 					}
 
 					.menu-hekkens-top-click {
 
 						backface-visibility: hidden;
 						top: 13px;
+						@media (max-width: $screen-xs-max) {
+							top: 8px;
+						}	
 						-webkit-transform: rotate(45deg);
 						-moz-transform: rotate(45deg);
 						-o-transform: rotate(45deg);
@@ -105,6 +136,9 @@ body {
 
 						backface-visibility: hidden;
 						top: 13px;
+						@media (max-width: $screen-xs-max) {
+							top: 8px;
+						}	
 						-webkit-transform: rotate(-405deg);
 						-moz-transform: rotate(-405deg);
 						-o-transform: rotate(-405deg);
@@ -117,15 +151,34 @@ body {
 				}
 
 				p {
-					color: black;
+
+					color: $h-orange;
+					line-height: 14px;
+					margin: 3px;	
+					@media (max-width: $screen-xs-max) {
+						line-height: 10px;
+						margin: 0px;
+						font-size: 10px;
+					}		
 				}
 			}
 
 			.site-title {
 
-				font-size: 60px;
-				// margin-top: 10px;
-				display: block;				
+				
+				@include make-md-column(6);
+				display: block;	
+				color: $h-orange;
+				text-align: left;
+				@media (max-width: $screen-xs-max) {
+					font-size: 30px;
+				}
+				@media (min-width: $screen-sm-min) {
+					font-size: 30px;
+				} 
+				@media (min-width: $screen-md-min) {
+					font-size: 60px;
+				}
 			}
 		}
 	}
@@ -135,7 +188,7 @@ body {
 
 			header {
 
-			background-color: black;
+			background-color: $h-orange;
 
 			.banner {
 

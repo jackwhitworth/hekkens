@@ -23,6 +23,8 @@ $(document).ready(function() {
 					Menu.activateMenu(event);
 					event.preventDefault();
 
+					setHeight();
+
 					$('#navigation').toggleClass('closed');
 
 					if ( $('.menu-hekkens-text').text() === 'MENU' ) {
@@ -55,5 +57,16 @@ $(document).ready(function() {
 	};
 
 	Menu.init();
+
+
+	// Set the height
+	function setHeight() {
+
+		var	windowHeight = $(window).height(),
+			dimensions = 'height: ' + windowHeight + 'px;';
+	
+		$('#navigation').attr( 'style', dimensions );
+		
+	}
 
 });

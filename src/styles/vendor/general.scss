@@ -1,9 +1,16 @@
+html {
+	margin-top: 0 !important;
+}
+
 body {
 
 	position: relative;
 	height: 100%;
 	width: 100%;
-	background-color: white;
+	background-color: $h-light-grey;
+	color: white;
+	// border-left: 3px solid $h-orange;
+	// border-right: 3px solid $h-orange;
 
 	// Global font-family
 
@@ -11,9 +18,7 @@ body {
 
 	// max-width and center site
 
-	section,
-	header,
-	footer {
+	section	{
 
 		max-width: 1200px;
 		margin: 0 auto;
@@ -23,11 +28,11 @@ body {
 
 	a {
 		
-		color: black;
+		color: white;
 
 		&:hover {
 
-			color: black;
+			color: white;
 			text-decoration: none;
 		}
 	}
@@ -43,13 +48,22 @@ body {
 
 	section {
 
-		margin-top: 110px;
 		margin-bottom: 30px;
+		@media (max-width: $screen-xs-max) {
+			margin-top: 50px;
+		}
+		@media (min-width: $screen-sm-min) {
+			margin-top: 70px;
+		} 
+		@media (min-width: $screen-md-min) {
+			margin-top: 90px;
+		}
+
 	}
 
 	&.invert {
 
-		background-color: black;
+		background-color: white;
 	}
 }
 

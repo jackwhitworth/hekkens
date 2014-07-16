@@ -10,26 +10,27 @@
 	get_header();
 ?>
 
-<!-- About post -->
+<!-- Work post -->
 <section id="work_post">
 	<div class="container-fluid">
-		<div class="row">
 
-		
+			<div class="carousel-container row">
 
-			<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="featured" >
-				<?php the_post_thumbnail( 'full' ); ?>
-				<div class="info">
-					<p class="title"><?php the_field('featured_text_one'); ?></p>
-					<p class="excerpt"><?php the_field('featured_text_two'); ?></p>
-				</div>
-			</a> 
+				<button class="navigation glyphicon glyphicon-backward" id="previous" data-increment="-1"></button>
+				<button class="navigation glyphicon glyphicon-forward" id="next" data-increment="1"></button>
+
+				<?php echo get_post_gallery(); ?>
+
+			</div>
+
+			<!-- <div class="info row">
+				<p class="title"><?php the_field('featured_text_one'); ?></p>
+				<p class="excerpt"><?php the_field('featured_text_two'); ?></p>
+			</div> -->
 		
-	
-		</div>
 	</div>
 </section>
-<!-- /About post -->
+<!-- /Work post -->
 <?php
 get_footer();
 ?>

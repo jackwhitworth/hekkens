@@ -27,7 +27,8 @@
     "respond": "1.4.x",
     "videojs": "4.4.x",
     "isotope": "~2.0.0",
-    "bootstrap-sass-official": "~3.1.0"
+    "bootstrap-sass-official": "~3.1.0",
+    "jquery-touchswipe": "~1.6.6"
   },
   "devDependencies": {
     "bootstrap-sass-official": "3.1.x"

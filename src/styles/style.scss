@@ -10,6 +10,15 @@
 @import '../../build/bower_components/font-awesome/scss/_path';
 @import '../../build/bower_components/font-awesome/scss/_icons';
 
+// variables
+$h-orange: #f7923a;
+
+$h-dark-grey: #191919;
+
+$h-light-grey: rgb(75, 75, 75);
+
+$h-lighter-grey: #646464;
+
 // sites styles
 @import 'vendor/mixins';
 
@@ -24,3 +33,5 @@
 @import 'vendor/footer';
 
 @import 'vendor/work-archive';
+
+@import 'vendor/carousel';
