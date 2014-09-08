@@ -1,0 +1,89 @@
+// footer CSS Mobile
+@media (max-width: $screen-xs-max) {
+	footer {
+
+		height: 25px;
+		line-height: 25px;
+	}
+}
+
+// footer CSS Tablet 
+@media (min-width: $screen-sm-min) {
+	footer {
+
+		height: 25px;
+		line-height: 25px;
+	}
+}
+
+// footer CSS Desktop 
+@media (min-width: $screen-md-min) {
+	
+	footer {
+
+		height: 35px;
+		line-height: 35px;
+	}
+}
+
+footer {
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 14px;
+	z-index: 1001;
+	background-color: $h-dark-grey;
+	color: $h-orange;
+
+	.contained {
+
+		max-width: 1200px;
+		margin: 0 auto;
+
+		.impressum {
+
+			
+			// @media (max-width: $screen-xs-max) {
+			// 	@include make-xs-column(6);
+			// }
+
+			// @media (min-width: $screen-sm-min) {
+			// 	@include make-sm-column(6);
+			// } 
+
+			@media (min-width: $screen-md-min) {
+				padding-left: 15px;
+			}
+
+			text-align: left;			
+		}
+
+		.contact {
+
+			// @include make-md-column(10);
+
+			// @media (max-width: $screen-xs-max) {
+			// 	@include make-xs-column(6);
+			// }
+			// @media (min-width: $screen-sm-min) {
+			// 	@include make-sm-column(6);
+			// } 
+			@media (min-width: $screen-md-min) {
+				padding-right: 15px;
+			}
+
+			text-align: right;
+			float: right;			
+			color: $h-orange;
+
+			&:hover {
+
+				color: $h-orange;
+				text-decoration: none;
+			}
+		}
+	}
+}
+

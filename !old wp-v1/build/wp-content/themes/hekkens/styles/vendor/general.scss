@@ -1,0 +1,80 @@
+html {
+	margin-top: 0 !important;
+}
+
+body {
+
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: $h-light-grey;
+	color: white;
+	// border-left: 3px solid $h-orange;
+	// border-right: 3px solid $h-orange;
+
+	// Global font-family
+
+	font-family:'RotisSansSerifW01-Light 735438';
+
+	// max-width and center site
+
+	section	{
+
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	// site wide links
+
+	a {
+		
+		color: white;
+
+		&:hover {
+
+			color: white;
+			text-decoration: none;
+		}
+	}
+
+	// hide wp admin bar
+
+	#wpadminbar {
+
+		display: none;
+	}
+
+	// off set sections to coincide with header
+
+	section {
+
+		margin-bottom: 30px;
+		@media (max-width: $screen-xs-max) {
+			margin-top: 50px;
+		}
+		@media (min-width: $screen-sm-min) {
+			margin-top: 70px;
+		} 
+		@media (min-width: $screen-md-min) {
+			margin-top: 90px;
+		}
+
+	}
+
+	&.invert {
+
+		background-color: white;
+	}
+}
+
+html.flip {
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: 0.55s 0.5s;
+	-moz-transition: 0.55s 0.5s;
+	-o-transition: 0.55s 0.5s;
+	transition: 0.55s 0.5s;
+}
