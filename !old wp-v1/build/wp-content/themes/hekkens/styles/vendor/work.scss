@@ -1,0 +1,63 @@
+#work-archive {
+
+	.project {
+
+		display: inline-block;
+		margin-top: 20px;
+
+		img {
+				
+			width: 100%;
+			height: auto;
+		}
+
+		.info {
+
+			background-color: #E8E8EE;
+
+			.title {
+				
+				padding-top: 10px;
+				margin: 0;
+			}
+
+			.excerpt {
+
+				margin: 0;
+			}
+		}
+	}
+
+	// Row filter
+	&.four {
+
+		.project {
+
+			@include make-md-column(3);
+		}
+	}
+
+	&.three {
+
+		.project {
+
+			@include make-md-column(4);
+		}
+	}
+
+	&.two {
+
+		.project {
+			
+			@include make-md-column(6);
+		}
+	}
+
+	&.one {
+
+		.project {
+			
+			@include make-md-column(12);
+		}
+	}
+}

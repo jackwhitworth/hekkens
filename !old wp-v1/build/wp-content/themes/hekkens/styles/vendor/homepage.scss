@@ -1,0 +1,48 @@
+#homepage {
+
+	.featured {
+
+		@include make-md-column(4);
+		display: inline-block;
+		margin-top: 20px;
+
+		&:first-child {
+
+			@include make-md-column(12);
+
+			.info {
+				
+				display: none;
+
+				@media (max-width: $screen-xs-max) and (max-width: $screen-md-max) {
+					display: block;
+				}
+			}
+		}
+
+		img {
+				
+			width: 100%;
+			height: auto;
+		}
+
+		.info {
+
+			background-color: #E8E8EE;
+
+			.title {
+				
+				padding-top: 10px;
+				margin: 0;
+			}
+
+			.excerpt {
+
+				margin: 0;
+			}
+		}
+	}
+}
+
+
+
