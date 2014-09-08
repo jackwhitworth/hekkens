@@ -23,22 +23,15 @@ $(document).ready(function() {
 					Menu.activateMenu(event);
 					event.preventDefault();
 
-					setHeight();
+					$('#navigation').toggleClass('open');
 
-					$('#navigation').toggleClass('closed');
+					if ( $('#navigation').hasClass('open') ) {
 
-					if ( $('.menu-hekkens-text').text() === 'MENU' ) {
-
-						$('.menu-hekkens-text').text('CLOSE');
-
-						// $('#navigation').show();
 						$('#navigation').fadeIn( '800', function() {
 							console.log('Animated.');
 						});
 
 					} else {
-
-						$('.menu-hekkens-text').text('MENU');
 
 						$('#navigation').fadeOut( '800', function() {
 							$('#navigation').hide();

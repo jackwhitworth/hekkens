@@ -99,17 +99,10 @@
         </section>
       </article>
 
-    <section id="footer">
-      <ul class="icons">
-        <div class="addthis_sharing_toolbox"></div>
-      </ul>
-      <div class="copyright">
-        <ul class="menu">
-          <li>&copy; Hekkens. All rights reserved.</li>
-        </ul>
-      </div>
-    </section>
-
+    <!-- FOOTER AND NAV CONSTANT -->
+    <?php
+      echo file_get_contents("footer.html");
+    ?>
 
   </body>
 </html>

@@ -4,6 +4,7 @@
 				top: 15px;
 				right: 15px;
 				width: 40px;
+				z-index: 1001;
 				// @media (max-width: $screen-xs-max) {
 				// 	top: 12px;
 				// 	right: 0;
@@ -32,9 +33,9 @@
 						backface-visibility: hidden;
 						position: absolute;
 						left: 0;
-						border-top: 4px solid white;
+						border-top: 4px solid #35b88f;
 						// @media (max-width: $screen-xs-max) {
-						// 	border-top: 2px solid white;
+						// 	border-top: 2px solid #35b88f;
 						// }
 
 						width: 100%;

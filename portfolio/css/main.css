@@ -1,8 +1,14 @@
+#nicolay {
+  margin: 0 auto;
+  display: block;
+  width: 100%; }
+
 .menu-hekkens-container {
   position: fixed;
   top: 15px;
   right: 15px;
-  width: 40px; }
+  width: 40px;
+  z-index: 1001; }
   .menu-hekkens-container .menu-hekkens {
     cursor: pointer;
     padding-left: 1.25em;
@@ -13,7 +19,7 @@
       backface-visibility: hidden;
       position: absolute;
       left: 0;
-      border-top: 4px solid white;
+      border-top: 4px solid #35b88f;
       width: 100%;
       -webkit-transition: 0.55s;
       -moz-transition: 0.55s;
@@ -142,3 +148,27 @@ body {
   border: 0; }
 #footer .at-svc-compact {
   display: none !important; }
+
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: #183026;
+  background-image: url("images/overlay.png"), url("../images/bg.jpg");
+  background-repeat: repeat,								no-repeat;
+  background-size: auto,								cover;
+  background-position: top left,							center 0;
+  background-attachment: fixed,								fixed; }
+  #navigation ul {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center; }

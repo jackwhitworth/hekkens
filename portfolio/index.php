@@ -14,7 +14,6 @@
 		<script src="js/init.js"></script>
 		<script src="js/scramble.js"></script>
 		<script src="js/main.js"></script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-540d6e8a1485b284"></script>
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -23,6 +22,10 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
+
+
+
+
 	<body>
 		<!-- google analytics -->
 		<script>
@@ -68,29 +71,14 @@
 							Ecommerce Build</h2>
 						</header>
 						<p>An interactive responsive quiz to find out which bag is sutable for you. This went from Prototype to Production in two weeks.</p>
-						<a href="erdem.html">Read More</a>
+						<a href="erdem.php">Read More</a>
 					</div>
 				</article>
 
-		<section id="footer">
-			<ul class="icons">
-				<div class="addthis_sharing_toolbox"></div>
-			</ul>
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; Hekkens. All rights reserved.</li>
-				</ul>
-			</div>
-		</section>
-
-		<div class="menu-hekkens-container">
-			<div class="menu-hekkens">
-				<span class="menu-hekkens-global menu-hekkens-top"></span>
-				<span class="menu-hekkens-global menu-hekkens-middle"></span>
-				<span class="menu-hekkens-global menu-hekkens-bottom"></span>
-			</div>
-			<p class="menu-hekkens-text">MENU</p>
-		</div>
+		<!-- FOOTER AND NAV CONSTANT -->
+		<?php
+			echo file_get_contents("footer.html");
+		?>
 
 	</body>
 </html>

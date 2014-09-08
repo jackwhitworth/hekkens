@@ -5,11 +5,14 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Portfolio / Blog For Web Developer Nicolay Hekkens" />
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/main.css" />
+
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.scrolly.min.js"></script>
     <script src="js/jquery.poptrox.min.js"></script>
     <script src="js/skel.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/init.js"></script>
     <script src="js/scramble.js"></script>
     <noscript>
@@ -26,15 +29,13 @@
           <h1 class="scramble">Nicolay Hekkens</h1>
         </header>
         <footer>
-          <a href="#about" class="button style2 scrolly scrolly-centered">About me</a>
+          <a href="#nicolay" class="button style2 scrolly scrolly-centered">About me</a>
         </footer>
       </section>
 
     <article id="about" class="container box style3">
       <section>
-        <header>
-          <a href="#"><h3>Erdem.com</h3></a>
-        </header>
+        <img id="nicolay" class="center" src="images/nicolay.jpg" alt="Nicolay Hekkens" />
         <hr />
         <p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
         ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
@@ -62,16 +63,11 @@
       </section>
     </article>
 
-    <section id="footer">
-      <ul class="icons">
-        <div class="addthis_sharing_toolbox"></div>
-      </ul>
-      <div class="copyright">
-        <ul class="menu">
-          <li>&copy; Hekkens. All rights reserved.</li>
-        </ul>
-      </div>
-    </section>
+    <!-- FOOTER AND NAV CONSTANT -->
+    <?php
+      echo file_get_contents("footer.html");
+    ?>
+
 
   </body>
 </html>
