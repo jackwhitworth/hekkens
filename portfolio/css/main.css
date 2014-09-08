@@ -9,12 +9,26 @@
   right: 15px;
   width: 40px;
   z-index: 1001; }
+  @media (max-width: 480px) {
+    .menu-hekkens-container {
+      top: 12px;
+      right: 0; } }
+  @media (min-width: 768px) {
+    .menu-hekkens-container {
+      top: 12px; } }
+  @media (min-width: 1024px) {
+    .menu-hekkens-container {
+      top: 20px; } }
   .menu-hekkens-container .menu-hekkens {
     cursor: pointer;
     padding-left: 1.25em;
     position: relative;
     width: 40px;
     height: 32px; }
+    @media (max-width: 480px) {
+      .menu-hekkens-container .menu-hekkens {
+        width: 25px;
+        height: 22px; } }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-global {
       backface-visibility: hidden;
       position: absolute;
@@ -29,8 +43,14 @@
       top: 0; }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-middle {
       top: 13px; }
+      @media (max-width: 480px) {
+        .menu-hekkens-container .menu-hekkens .menu-hekkens-middle {
+          top: 8px; } }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-bottom {
       top: 26px; }
+      @media (max-width: 480px) {
+        .menu-hekkens-container .menu-hekkens .menu-hekkens-bottom {
+          top: 16px; } }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-top-click {
       backface-visibility: hidden;
       top: 13px;
@@ -42,6 +62,9 @@
       -moz-transition: 0.55s 0.5s;
       -o-transition: 0.55s 0.5s;
       transition: 0.55s 0.5s; }
+      @media (max-width: 480px) {
+        .menu-hekkens-container .menu-hekkens .menu-hekkens-top-click {
+          top: 8px; } }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-middle-click {
       opacity: 0; }
     .menu-hekkens-container .menu-hekkens .menu-hekkens-bottom-click {
@@ -55,6 +78,9 @@
       -moz-transition: 0.55s 0.5s;
       -o-transition: 0.55s 0.5s;
       transition: 0.55s 0.5s; }
+      @media (max-width: 480px) {
+        .menu-hekkens-container .menu-hekkens .menu-hekkens-bottom-click {
+          top: 8px; } }
 
 .carousel {
   text-align: center;
@@ -161,10 +187,10 @@ body {
   display: none;
   background-color: #183026;
   background-image: url("images/overlay.png"), url("../images/bg.jpg");
-  background-repeat: repeat,								no-repeat;
-  background-size: auto,								cover;
-  background-position: top left,							center 0;
-  background-attachment: fixed,								fixed; }
+  background-repeat: repeat,	no-repeat;
+  background-size: auto,	cover;
+  background-position: top left, center 0;
+  background-attachment: fixed, fixed; }
   #navigation ul {
     position: relative;
     top: 50%;
@@ -172,3 +198,5 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center; }
+    #navigation ul li {
+      padding: 1em; }

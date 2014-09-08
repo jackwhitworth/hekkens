@@ -1,27 +1,27 @@
 #navigation {
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-
   z-index: 1000;
-
   width: 100%;
   height: 100%;
-
   display: none;
-
-  background-color:		#183026;
-  background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
-  background-repeat:		repeat,								no-repeat;
-  background-size:		auto,								cover;
-  background-position: 	top left,							center 0;
-  background-attachment:	fixed,								fixed;
+  background-color:	#183026;
+  background-image:	url('images/overlay.png'), url('../images/bg.jpg');
+  background-repeat: repeat,	no-repeat;
+  background-size: auto,	cover;
+  background-position: top left, center 0;
+  background-attachment: fixed, fixed;
 
   ul{
     @include vertical-align;
     text-align: center;
-  }
 
+    li {
+      padding: 1em;
+    }
+  }
 }

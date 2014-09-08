@@ -39,8 +39,8 @@
     <!-- Header -->
       <section id="header">
         <header>
-          <h1>Erdem</h1>
-          <p class="scramble">Ecommerce build.</p>
+          <h1>Mulberry</h1>
+          <p class="scramble">Interactive Quiz</p>
         </header>
         <footer>
           <a href="#slideshow" class="button style2 scrolly scrolly-centered">Show</a>
@@ -50,38 +50,37 @@
     <!-- Banner -->
       <section id="slideshow" class="carousel">
         <div class="carousel-container">
-  				<div id="carousel">
+          <div id="carousel">
 
-				    <figure><div style="background-image: url('images/erdem/01.jpg');"></div></figure>
-  					<figure><div style="background-image: url('images/erdem/02.jpg');"></div></figure>
-  					<figure><div style="background-image: url('images/erdem/03.jpg');"></div></figure>
-  					<figure><div style="background-image: url('images/erdem/04.jpg');"></div></figure>
-  					<figure><div style="background-image: url('images/erdem/05.jpg');"></div></figure>
+            <figure><div style="background-image: url('images/cara-scope/1.jpg');"></div></figure>
+            <figure><div style="background-image: url('images/cara-scope/2.jpg');"></div></figure>
+            <figure><div style="background-image: url('images/cara-scope/3.jpg');"></div></figure>
+            <figure><div style="background-image: url('images/cara-scope/4.jpg');"></div></figure>
+            <figure><div style="background-image: url('images/cara-scope/5.jpg');"></div></figure>
 
-  				</div>
-			  </div>
+          </div>
+        </div>
       </section>
       <div class="nav-container">
         <button class="navigation fa fa-fast-backward" id="previous" data-increment="-1" title="Previous Slide"></button>
-  			<button class="navigation fa fa-fast-forward" id="next" data-increment="1" title="Next Slide"></button>
+        <button class="navigation fa fa-fast-forward" id="next" data-increment="1" title="Next Slide"></button>
       </div>
     <!-- Generic -->
 
       <article class="container box style3">
         <section>
           <header>
-            <a href="erdem.com" target="_blank"><h3>Erdem.com</h3></a>
+            <a href="http://www.mulberry.com/caradelevingne" target="_blank"><h3>Mulberry, Cara Scope</h3></a>
           </header>
           <hr />
-          <p>Building this project on <a href="www.bigcommerce.com/‎" target="_blank">Bigcommerce.com</a> proved to be a large challenge,
-             issues such as no access to the server side code and GLOBAL variables that were not global. A separate wordpress site was
-             set up to manage the content for collections and various other content driven parts of the site. The content was
-             retrieved via RESTFUL API and using Handlebars to format the data. We developed using Grunt as a compiler.</p>
+          <p>This project was an exciting process, it only took two weeks from prototype to production.
+             It started as a prototype so there was quite a challenge keeping the code clean as the project grew. </p>
           <hr />
-          <p>We quickly realized that wordpress does multiple SQL queries for each endpoint resulting in a 15 second page load.
-             This wasn't desirable, so we ended up writing our own plugin that did a single custom made SQL query for each endpoint.
-              In addition with an image loader we managed to get a load time of under 5 seconds
-              ( considering there are 100 images per page )</p>
+          <p>First challenge was to figure out how the slides would move, after some thinking I decided to use javascript
+             to measure the window width and height. With those numbers I was able to set the dimensions of each
+             slide and position the slide absolutely and use CSS3 transitions to animate slides. There were five
+              questions which were either A or B, so there were 32 possible combinations. Depending on the combination
+              the the relevant data was pulled from a JSON file and output.</p>
           <hr />
         </section>
         <section>
@@ -93,14 +92,9 @@
             <li>Css3</li>
             <li>Javascript</li>
             <li>Scss</li>
-            <li>REST</li>
-            <li>Bootstrap3</li>
             <li>Jquery</li>
-            <li>Handlebars</li>
-            <li>BigCommerce</li>
-            <li>Cycle2</li>
-            <li>Modenizer</li>
-            <li>Grunt</li>
+            <li>VideoJS</li>
+            <li>ShareThis</li>
           </ul>
         </section>
       </article>
