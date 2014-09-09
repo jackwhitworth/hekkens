@@ -1,0 +1,26 @@
+#about {
+
+  .about_intro {
+
+    float: left;
+
+    #nicolay {
+      width: 33%;
+      float: left;
+      padding-right: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  .logos {
+
+    li {
+      width: 24%;
+      display: inline-block;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

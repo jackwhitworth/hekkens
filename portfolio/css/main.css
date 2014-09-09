@@ -200,3 +200,16 @@ body {
     text-align: center; }
     #navigation ul li {
       padding: 1em; }
+
+#about .about_intro {
+  float: left; }
+  #about .about_intro #nicolay {
+    width: 33%;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em; }
+#about .logos li {
+  width: 24%;
+  display: inline-block; }
+  #about .logos li img {
+    width: 100%; }

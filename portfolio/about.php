@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Hekkens Development</title>
+    <title>About - Hekkens Development</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Portfolio / Blog For Web Developer Nicolay Hekkens" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="About Nicolay Hekkens" />
     <link rel="icon" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="css/main.css" />
 
@@ -47,30 +47,61 @@
 
     <article id="about" class="container box style3">
       <section>
-        <img id="nicolay" class="center" src="images/nicolay.jpg" alt="Nicolay Hekkens" />
-        <hr />
-        <p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-        ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-        facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-        tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-        posuere cubilia.</p>
-        <hr />
-        <p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-        ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-        facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-        tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-        posuere cubilia.</p>
+        <!-- <img id="nicolay" class="" src="images/nicolay.jpg" alt="Nicolay Hekkens" /> -->
+
+        <p class="about_intro"><img id="nicolay" class="" src="images/nicolay.jpg" alt="Nicolay Hekkens" />As a developer, I offer a range of computer networking skills that help
+        brands accomplish their technology goals to the highest standards.
+        My experience stems primarily from the fashion industry, where I have
+        worked across a number of different technologies. These range from
+        server-side code to front-end development work, and on to custom content
+        management systems (Wordpress). I've also deployed final projects to
+        clients servers or third-party hosting partners. If the scope of the
+        project requires a "wiki" or technical spec, I have experience in that
+        process.</p>
+
+
+        <p>I work closely with creative teams to achieve a "pixel-perfect" page from
+        designs, including older versions of Internet Explorer (IE7 and IE8). This
+        specialised development work, plus collaboration with creative teams has
+        resulted in a number of beautiful and fully functioning sites for leading
+        fashion brands and companies including Mulberry, Erdem, Tory Burch, H&M, Gucci, Moncler
+        and Wednesday Agency.</p>
+
+
+        <p>My specific IT skills include full proficiency at JavaScript, HTML5, CSS3,
+        jQuery and PHP. I also have strong experience with
+        responsive site design, e-commerce, Wordpress, Assembla and Grunt.</p>
+
+
+        <p>Born in Aruba and raised around the world, I attended ACS International
+        School in Cobham, before completing a BSc in Real Estate Management &
+        Business from Liverpool John Moores University in 2012.</p>
         <hr />
       </section>
       <section>
         <header>
-          <h3>Technology Used</h3>
+          <h3>Technologies Used</h3>
         </header>
-        <ul class="default">
-          <li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-          <li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-          <li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-          <li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+        <ul class="logos">
+          <li><a href="" title="Angular JS"><img src="images/logo/angular.jpg" alt="Angular JS"></a></li>
+          <li><a href="" title="Big Commerce"><img src="images/logo/bc.jpg" alt="Big Commerce"></a></li>
+          <li><a href="" title="Bower"><img src="images/logo/bower.jpg" alt="Bower"></a></li>
+          <li><a href="" title="Css3"><img src="images/logo/css3.jpg" alt="Css3"></a></li>
+
+          <li><a href="" title="Express"><img src="images/logo/express.jpg" alt="Express"></a></li>
+          <li><a href="" title="Github"><img src="images/logo/github.jpg" alt="Github"></a></li>
+          <li><a href="" title="Grunt"><img src="images/logo/grunt.jpg" alt="Grunt"></a></li>
+          <li><a href="" title="Handlebars"><img src="images/logo/handlebars.jpg" alt="Handlebars"></a></li>
+
+          <li><a href="" title="HTML5"><img src="images/logo/html5.jpg" alt="HTML5"></a></li>
+          <li><a href="" title="Jquery"><img src="images/logo/jquery.jpg" alt="Jquery"></a></li>
+          <li><a href="" title="Javascript"><img src="images/logo/js.jpg" alt="Javascript"></a></li>
+          <li><a href="" title="Less"><img src="images/logo/less.jpg" alt="Less"></a></li>
+
+          <li><a href="" title="Node"><img src="images/logo/node.jpg" alt="Node"></a></li>
+          <li><a href="" title="PHP"><img src="images/logo/php.jpg" alt="PHP"></a></li>
+          <li><a href="" title="Sass"><img src="images/logo/sass.jpg" alt="Sass"></a></li>
+          <li><a href="" title="Wordpress"><img src="images/logo/wordpress.jpg" alt="Wordpress"></a></li>
         </ul>
       </section>
     </article>

@@ -121,9 +121,9 @@
 			<div class="inner">
 				<header>
 					<h2>Calvin Klein Downtown<br />
-					Fregrance launch,</h2>
+					Fregrance launch</h2>
 				</header>
-				<p>Fully responsive website built for Calvin Klein's new fragrance Downtown.</p>
+				<p>Fully responsive site for Calvin Klein's new fragrance Downtown.</p>
 				<!-- <a href="erdem.php">Read More</a> -->
 			</div>
 		</article>
