@@ -45,12 +45,21 @@
 				</footer>
 			</section>
 
-		<article id="about" class="container box style3">
+		<article id="code" class="container box style3">
 			<section>
 				<header>
 					<h3>Code</h3>
 				</header>
-				<ul class="logos">
+				<ul class="code">
+
+					<li>
+						<img src="images/code/carousel.png" alt="3D Carousel image"/>
+						<div class="content">
+							<h4>3D Carousel</h4>
+							<p>A 3d carousel that uses Javascript and CSS3 transitions to accomplish a 3d effect.</p>
+							<a href="/code/carousel3d/" title="3D Carousel">Learn More</a>
+						</div>
+					</li>
 
 				</ul>
 			</section>

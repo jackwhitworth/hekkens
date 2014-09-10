@@ -82,6 +82,25 @@
         .menu-hekkens-container .menu-hekkens .menu-hekkens-bottom-click {
           top: 8px; } }
 
+#code .code li {
+  margin-bottom: 1em;
+  border: 1px solid black; }
+  #code .code li:hover {
+    border: 1px solid #35b88f; }
+  #code .code li img {
+    display: inline-block;
+    width: 40%;
+    height: auto; }
+  #code .code li .content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    text-align: center;
+    width: 55%; }
+
 .carousel {
   text-align: center;
   width: 100%;

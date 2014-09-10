@@ -1,0 +1,30 @@
+#code {
+
+  .code {
+
+    li {
+      margin-bottom: 1em;
+      border: 1px solid black;
+
+      &:hover{
+
+        border: 1px solid #35b88f;
+      }
+
+
+        img {
+          display: inline-block;
+          width: 40%;
+          height: auto;
+        }
+
+        .content {
+          @include vertical-align;
+          display: inline-block;
+          text-align: center;
+          width: 55%;
+        }
+
+    }
+  }
+}

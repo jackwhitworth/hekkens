@@ -119,7 +119,7 @@
 					<h2>H&M The New Icons<br />
 					Flash web site</h2>
 				</header>
-				<p>Fully responsive section integrated into the exsisting site.</p>
+				<p>Fully responsive section integrated into the existing site.</p>
 				<!-- <a href="kent-curwen.php">Read More</a> -->
 			</div>
 		</article>
