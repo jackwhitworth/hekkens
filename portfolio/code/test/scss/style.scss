@@ -1,0 +1,96 @@
+// Warning: Use auto prefix on your composer.
+
+// CAROUSEL
+article.carousel {
+
+	text-align: center;
+	width: 100%;
+	height: auto;
+
+	.container {
+
+		// width: 210px;
+  // 		height: 140px;
+		margin: 10% auto 0;
+		position: relative;
+		// border: 1px solid #CCC;
+		perspective: 1100px;
+		-webkit-perspective: 1100px;
+		-moz-perspective: 1100px;
+
+		#carousel {
+
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			transition: transform 1s;
+			-webkit-transition: -webkit-transform 1s;
+			-moz-transition: -moz-transform 1s;
+			// -webkit-transform: translateZ( -288px );
+
+			&.flip {
+				-webkit-transform: rotateX(90deg);
+			  -moz-transform:    rotateX(90deg);
+			  -ms-transform:     rotateX(90deg);
+			  -o-transform:      rotateX(90deg);
+			  transform:         rotateX(90deg);
+			}
+
+			figure {
+
+				// width: 186px;
+				// height: 116px;
+				left: 10px;
+				top: 10px;
+				display: block;
+				position: absolute;
+				border: 2px solid black;
+				line-height: 116px;
+				color: black;
+				text-align: center;
+				font-weight: bold;
+				font-size: 50px;
+				margin: 0;
+
+				// &:nth-child(1) {
+				// 	transform: rotateY(   0deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(2) {
+				// 	transform: rotateY(  40deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(3) {
+				// 	transform: rotateY(  80deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(4) {
+				// 	transform: rotateY( 120deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(5) {
+				// 	transform: rotateY( 160deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(6) {
+				// 	transform: rotateY( 200deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(7) {
+				// 	transform: rotateY( 240deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(8) {
+				// 	transform: rotateY( 280deg ) translateZ( 288px );
+				// }
+
+				// &:nth-child(9) {
+				// 	transform: rotateY( 320deg ) translateZ( 288px );
+				// }
+			}
+		}
+	}
+}

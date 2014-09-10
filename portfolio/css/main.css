@@ -89,6 +89,7 @@
   margin-bottom: 0; }
 
 .carousel .carousel-container {
+  overflow: hidden;
   margin: 0 auto;
   position: relative;
   perspective: 1100px;
@@ -209,7 +210,12 @@ body {
     padding-right: 1em;
     padding-bottom: 1em; }
 #about .logos li {
-  width: 24%;
+  width: 48%;
   display: inline-block; }
+  #about .logos li:hover {
+    opacity: .8; }
+  @media only screen and (min-width: 768px) {
+    #about .logos li {
+      width: 24%; } }
   #about .logos li img {
     width: 100%; }

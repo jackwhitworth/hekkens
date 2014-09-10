@@ -22,10 +22,6 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-
-
-
-
 	<body>
 		<!-- google analytics -->
 		<script>
@@ -50,8 +46,21 @@
 			</footer>
 		</section>
 
+		<!-- Ralph Rucci -->
+		<article id="first" class="container box style1 right">
+			<a href="http://ralphrucci.net/" target="_blank" class="image fit" style="background-image: url('images/home/ralph-home.png'); background-position: center center; background-size: cover;"></a>
+			<div class="inner">
+				<header>
+					<h2>Ralph Rucci<br />
+					Wordpress Build</h2>
+				</header>
+				<p>Fully responsive wordpress build to show off there latest collections.</p>
+				<!-- <a href="erdem.php">Read More</a> -->
+			</div>
+		</article>
+
 		<!-- Mulberry -->
-		<article id="first" class="container box style1 left">
+		<article class="container box style1 left">
 			<a href="http://www.mulberry.com/caradelevingne" target="_blank" class="image fit" style="background-image: url('images/home/mulberry-home.png'); background-position: center center; background-size: cover;"></a>
 			<div class="inner">
 				<header>

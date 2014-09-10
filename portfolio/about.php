@@ -83,25 +83,25 @@
           <h3>Technologies Used</h3>
         </header>
         <ul class="logos">
-          <li><a href="" title="Angular JS"><img src="images/logo/angular.jpg" alt="Angular JS"></a></li>
-          <li><a href="" title="Big Commerce"><img src="images/logo/bc.jpg" alt="Big Commerce"></a></li>
-          <li><a href="" title="Bower"><img src="images/logo/bower.jpg" alt="Bower"></a></li>
-          <li><a href="" title="Css3"><img src="images/logo/css3.jpg" alt="Css3"></a></li>
+          <li><a href="http://angularjs.org/" target="_blank" title="Angular JS"><img src="images/logo/angular.jpg" alt="Angular JS"></a></li>
+          <li><a href="http://www.bigcommerce.com/" target="_blank" title="Big Commerce"><img src="images/logo/bc.jpg" alt="Big Commerce"></a></li>
+          <li><a href="http://bower.io/" target="_blank" title="Bower"><img src="images/logo/bower.jpg" alt="Bower"></a></li>
+          <li><a href="http://www.w3schools.com/css/css3_intro.asp" target="_blank" title="Css3"><img src="images/logo/css3.jpg" alt="Css3"></a></li>
 
-          <li><a href="" title="Express"><img src="images/logo/express.jpg" alt="Express"></a></li>
-          <li><a href="" title="Github"><img src="images/logo/github.jpg" alt="Github"></a></li>
-          <li><a href="" title="Grunt"><img src="images/logo/grunt.jpg" alt="Grunt"></a></li>
-          <li><a href="" title="Handlebars"><img src="images/logo/handlebars.jpg" alt="Handlebars"></a></li>
+          <li><a href="http://expressjs.com/" target="_blank" title="Express"><img src="images/logo/express.jpg" alt="Express"></a></li>
+          <li><a href="http://github.com/" target="_blank" title="Github"><img src="images/logo/github.jpg" alt="Github"></a></li>
+          <li><a href="http://gruntjs.com/" target="_blank" title="Grunt"><img src="images/logo/grunt.jpg" alt="Grunt"></a></li>
+          <li><a href="http://handlebarsjs.com/" target="_blank" title="Handlebars"><img src="images/logo/handlebars.jpg" alt="Handlebars"></a></li>
 
-          <li><a href="" title="HTML5"><img src="images/logo/html5.jpg" alt="HTML5"></a></li>
-          <li><a href="" title="Jquery"><img src="images/logo/jquery.jpg" alt="Jquery"></a></li>
-          <li><a href="" title="Javascript"><img src="images/logo/js.jpg" alt="Javascript"></a></li>
-          <li><a href="" title="Less"><img src="images/logo/less.jpg" alt="Less"></a></li>
+          <li><a href="http://www.w3schools.com/html/html5_intro.asp" target="_blank" title="HTML5"><img src="images/logo/html5.jpg" alt="HTML5"></a></li>
+          <li><a href="http://jquery.com/" target="_blank" title="Jquery"><img src="images/logo/jquery.jpg" alt="Jquery"></a></li>
+          <li><a href="http://www.w3schools.com/js/" target="_blank" title="Javascript"><img src="images/logo/js.jpg" alt="Javascript"></a></li>
+          <li><a href="http://lesscss.org/" target="_blank" title="Less"><img src="images/logo/less.jpg" alt="Less"></a></li>
 
-          <li><a href="" title="Node"><img src="images/logo/node.jpg" alt="Node"></a></li>
-          <li><a href="" title="PHP"><img src="images/logo/php.jpg" alt="PHP"></a></li>
-          <li><a href="" title="Sass"><img src="images/logo/sass.jpg" alt="Sass"></a></li>
-          <li><a href="" title="Wordpress"><img src="images/logo/wordpress.jpg" alt="Wordpress"></a></li>
+          <li><a href="http://nodejs.org/" target="_blank" title="Node"><img src="images/logo/node.jpg" alt="Node"></a></li>
+          <li><a href="http://php.net/" target="_blank" title="PHP"><img src="images/logo/php.jpg" alt="PHP"></a></li>
+          <li><a href="http://sass-lang.com/" target="_blank" title="Sass"><img src="images/logo/sass.jpg" alt="Sass"></a></li>
+          <li><a href="http://en-gb.wordpress.org" target="_blank" title="Wordpress"><img src="images/logo/wordpress.jpg" alt="Wordpress"></a></li>
         </ul>
       </section>
     </article>

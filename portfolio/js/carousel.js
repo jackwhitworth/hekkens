@@ -76,6 +76,27 @@ $(document).ready(function() {
 			next_Panel( increment );
 		});
 
+		// toggle slides next/prev
+		$carousel.swipe( {
+			swipe:function(event, direction, distance, duration, fingerCount){
+				if ( direction === 'left' && distance > 100) {
+					next_Panel( 1 );
+				} else if ( direction === 'right' && distance > 100 ) {
+					next_Panel( -1 );
+				}
+			},
+			fingers:'all'
+		});
+
+		$(document).keyup(function(e) {
+      switch(e.keyCode) {
+        case 39 : next_Panel( 1 );
+          break;
+        case 37 : next_Panel( -1 );
+          break;
+      }
+    });
+
 	};
 
 	// resize width

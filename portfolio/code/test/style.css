@@ -1,0 +1,5 @@
+article.carousel { text-align: center; width: 100%; height: auto; }
+article.carousel .container { margin: 10% auto 0; position: relative; perspective: 1100px; -webkit-perspective: 1100px; -moz-perspective: 1100px; }
+article.carousel .container #carousel { width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; transition: transform 1s; -webkit-transition: -webkit-transform 1s; }
+article.carousel .container #carousel.flip { -webkit-transform: rotateX(90deg); -ms-transform: rotateX(90deg); transform: rotateX(90deg); }
+article.carousel .container #carousel figure { left: 10px; top: 10px; display: block; position: absolute; border: 2px solid black; line-height: 116px; color: black; text-align: center; font-weight: bold; font-size: 50px; margin: 0; }

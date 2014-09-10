@@ -9,13 +9,27 @@
       float: left;
       padding-right: 1em;
       padding-bottom: 1em;
+      // border: 2px solid black;
     }
   }
 
   .logos {
 
     li {
-      width: 24%;
+
+      &:hover {
+        opacity: .8;
+      }
+        width: 48%;
+
+      // ************************************************************************************
+      // ************************************ TABLET ****************************************
+      // ************************************************************************************
+      @media only screen and (min-width : 768px) {
+        width: 24%;
+      }
+
+
       display: inline-block;
 
       img {
