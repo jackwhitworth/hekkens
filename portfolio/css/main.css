@@ -90,13 +90,11 @@
   #code .code li img {
     display: inline-block;
     width: 40%;
-    height: auto; }
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; }
   #code .code li .content {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     display: inline-block;
     text-align: center;
     width: 55%; }

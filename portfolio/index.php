@@ -37,9 +37,9 @@
 
 		<!-- Header -->
 		<section id="header">
-			<header>
-				<h1 class="scramble">Hekkens Development</h1>
-				<p>By Nicolay Hekkens</p>
+			<header itemscope itemtype="http://schema.org/Person">
+				<h1 class="scramble" itemprop="brand">Hekkens Development</h1>
+				<p itemprop="name">Nicolay Hekkens</p>
 			</header>
 			<footer>
 				<a href="#first" class="button style2 scrolly scrolly-centered">Latest Work</a>

@@ -16,10 +16,13 @@
           display: inline-block;
           width: 40%;
           height: auto;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 10px;
         }
 
         .content {
-          @include vertical-align;
+          // @include vertical-align;
           display: inline-block;
           text-align: center;
           width: 55%;

@@ -1,0 +1,16 @@
+body,
+html {
+  margin: 0;
+  padding: 0; }
+  body canvas,
+  html canvas {
+    background-color: black; }
+  body #controls,
+  html #controls {
+    width: 350px !important;
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+    body #controls span,
+    html #controls span {
+      color: white; }

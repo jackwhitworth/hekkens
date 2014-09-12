@@ -41,7 +41,7 @@
 					<h1 class="scramble">Code</h1>
 				</header>
 				<footer>
-					<a href="#about" class="button style2 scrolly scrolly-centered">Continue</a>
+					<a href="#code" class="button style2 scrolly scrolly-centered">Continue</a>
 				</footer>
 			</section>
 
@@ -58,6 +58,15 @@
 							<h4>3D Carousel</h4>
 							<p>A 3d carousel that uses Javascript and CSS3 transitions to accomplish a 3d effect.</p>
 							<a href="/code/carousel3d/" title="3D Carousel">Learn More</a>
+						</div>
+					</li>
+
+					<li>
+						<img src="images/code/particle.png" alt="particle image"/>
+						<div class="content">
+							<h4>Canvas Paticles</h4>
+							<p>Consists of two emiters shooting particle's towards a Field that pushes them away.</p>
+							<a href="/code/particles/index.html" title="Particle">Learn More</a>
 						</div>
 					</li>
 
